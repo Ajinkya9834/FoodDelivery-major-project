@@ -1,0 +1,135 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-top: 40px;
+}
+
+#history-title{
+    font-family: "Charm", cursive;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+#history-title >hr{
+    width: 15%;
+}
+
+#order-date{
+    opacity: 0.6;
+}
+#order-status{
+    color: black;
+}
+
+#order-status-value, #order-tot-price{
+    font-weight: bolder;
+    font-size: large;
+}
+
+.no-order-history{
+    grid-area: 1/2/2/4;
+    text-align: center;   
+}
+.no-order-history > p{
+    font-family: "Charm", cursive;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 27px;
+}
+#no-order-icon{
+    width: 200px;
+}
+
+.history-container{
+    padding: 10px;
+    border: 1px solid black;
+}
+.history-container > p{
+    margin-bottom: 2px;
+    font-family: "Charm", cursive;
+    letter-spacing: 1px;
+}
+.history-details p{
+    font-family: "Charm", cursive;
+    letter-spacing: 0.7px;
+}
+
+.history-container > p >strong{
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+
+.history-container > p:nth-child(2){
+    margin-bottom: 10px;
+}
+
+#history-img{
+    width: 50px;
+    margin-right: 20px;
+}
+
+.history-details{
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.history-details > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+#history-order-total-price{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#history-order-total-price p{
+    margin-top: 15px;
+    font-family: "Charm", cursive;
+}
+.history-order-scrollbar hr{
+    width: 70%;
+    margin-left: auto;
+}
+.delivery_status{
+    margin-right: 20px;
+}
+
+.history-order-scrollbar{
+    height: 32vh;
+    overflow-y: auto;
+    padding-right: 15px;
+}
+.history-order-scrollbar::-webkit-scrollbar{
+    width: 8px;
+}
+.history-order-scrollbar::-webkit-scrollbar-track{
+    background-color: rgb(234, 188, 197);
+  border-radius: 10px;
+}
+.history-order-scrollbar::-webkit-scrollbar-thumb{
+    background: rgb(187, 18, 52);
+    border-radius: 10px;
+}
+
+
+@media (max-width: 376px){
+    .container{
+        display: block;
+        padding: 0px 20px;
+    }
+
+    #history-title > hr{
+        width: 50%;
+    }
+
+    .history-container{
+        margin-bottom: 15px;
+    }
+}

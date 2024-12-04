@@ -1,0 +1,29 @@
+.footer{
+    font-family: sans-serif;
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 140px;
+    height: 30vh;
+    background-color: #ffffff;
+    border-top:2px solid black ;
+}
+li{
+    height: 50px; 
+}
+.footer-contact > li:hover{
+    color: rgb(187, 18, 52);
+}
+.footer > ul > li{
+    list-style-type: none;
+}
+.footer-contact {
+    padding: 0px;
+}
+@media (max-width:376px){
+    .footer{
+        display: block;
+        width: 100%;
+        text-align:end;
+    }
+}

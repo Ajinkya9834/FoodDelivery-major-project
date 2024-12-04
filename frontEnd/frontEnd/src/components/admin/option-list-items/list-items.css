@@ -1,0 +1,45 @@
+.list-item-table > table {
+  width: 100%;
+  border-collapse: collapse;
+
+}
+
+.list-item-table-content-image > img {
+  width: 55px;
+}
+
+.list-item-table-content {
+  text-align: center;
+}
+
+.admin-content-icon {
+  width: fit-content;
+}
+
+.list-items-table-btn:hover {
+  color: rgb(187, 18, 52);
+}
+.list-item-table-title th {
+  position: sticky; 
+  top: 0px;
+  background-color: rgb(187, 18, 52);
+  color: white;
+  font-weight: 100;
+  letter-spacing: 1.5px;
+  z-index: 5; 
+  padding: 10px;
+}
+
+.list-items-table-body td {
+  padding: 10px;
+  border: 1px solid rgb(245, 200, 200); 
+}
+
+@media (max-width:376px) {
+    #action-icon{
+      padding: 0px;
+    }
+    .list-item-table-title th{
+      padding: 5px;
+    }
+}

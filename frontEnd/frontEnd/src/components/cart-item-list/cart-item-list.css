@@ -1,0 +1,98 @@
+.add-cart-placeOrder-btn{
+    font-family: "Charm", cursive;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.add-cart-items >h2> hr {
+    width: 15%;
+}
+
+
+.add-cart-items-title{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr;
+    grid-template-rows: auto;
+    margin-top: 30px;
+    
+}
+#add-cart-image{
+    width: 55px;
+}
+.add-cart-items-list{
+    padding: 10px;
+    align-items: center;
+}
+.add-cart-items-list-container{
+    height: 80vh;
+    overflow-y: auto;
+}
+
+.add-cart-items-list-container::-webkit-scrollbar{
+    width: 8px; 
+}
+.add-cart-items-list-container::-webkit-scrollbar-track{
+    background-color: rgb(234, 188, 197);
+    border-radius: 10px;
+}
+.add-cart-items-list-container::-webkit-scrollbar-thumb{
+    background: rgb(187, 18, 52);
+    border-radius: 10px;
+}
+.add-cart{
+    width: 80%;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.empty-cart > img{
+    width: 550px;   
+}
+.empty-cart > p{
+    font-size: 27px;
+    font-family: "Charm", cursive;
+}
+
+.add-cart-items{
+    margin-top: 20px;  
+}
+
+.add-cart-items > h2{
+    text-align: left;
+    color: black;
+    font-family: "Charm", cursive;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 30px;
+}
+h1{
+    text-align: left;
+    color: black;
+    font-family: "Tangerine", serif;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 35px;
+}
+.add-cart-delete:hover{
+    color: rgb(187, 18, 52);
+}
+
+.add-cart-placeOrder-btn{
+    font-size: larger;
+    letter-spacing: 1px;
+    margin: 20px 0px ;
+}
+@media (max-width:376px) {
+    .add-cart-items >h2> hr {
+        width: 38%;
+    }
+    
+    .empty-cart > img{
+        width: 100%;   
+    
+    }   
+    .add-cart{
+        margin-left: 0px;    
+        width: 100%;
+    }
+}

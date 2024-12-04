@@ -1,0 +1,21 @@
+.app-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.view-port-height{
+    height: 100vh;
+}
+
+.app{
+    width: 80%;
+    margin: auto;
+}
+
+@media (max-width: 376px){
+    .app{
+        width: 100%;
+    }
+}

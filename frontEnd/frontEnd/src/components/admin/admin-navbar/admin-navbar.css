@@ -1,0 +1,40 @@
+.admin-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+    margin-bottom: 20px;
+}
+
+.admin-navbar-logout:hover{
+    color: rgb(187, 18, 52);
+}
+
+.admin-navbar-logout{
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 10px;
+    margin-top: 0px;
+}
+.admin-profile{
+    display: block;
+    justify-content: end;
+    
+}
+.admin-navbar-logout p{
+    font-size: larger;
+    margin-bottom: 10px;
+}
+
+hr{
+  border: 1px solid rgb(179, 120, 132);
+  
+}
+
+@media (max-width:376px) {
+    .admin-navbar-logout{
+        margin-right: 0px;
+    }   
+}

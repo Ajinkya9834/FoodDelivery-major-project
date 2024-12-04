@@ -1,0 +1,48 @@
+.app-download > h2{
+    font-family: "Charm", cursive;
+    letter-spacing: 2px;
+
+}
+
+.app-download{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.qr-logo {
+    display: flex;
+   gap: 50px;
+}
+.qr-logo > div > img  {
+    display: block;
+}
+
+
+#playstore-logo, #apple-logo{
+    height: 40px;
+    margin: 0px auto;
+}
+
+#download{
+    color: rgb(187, 18, 52);
+    font-size: 35px;
+}
+
+
+@media (max-width: 376px) {
+    .app-download{
+        display: block;
+        text-align: center;
+    }
+
+    .qr-logo{
+        display: block;
+    }
+    .qr-logo img{
+        margin: 0px auto;
+    }
+    .qr-logo > div{
+        margin-top: 15px;
+    }
+}

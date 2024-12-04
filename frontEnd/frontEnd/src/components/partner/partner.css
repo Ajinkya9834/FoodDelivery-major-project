@@ -1,0 +1,44 @@
+
+.partner {
+    background-color: rgb(247, 219, 224);
+    text-align: center;
+    padding: 30px 0px;
+    margin: 100px 0px;
+}
+
+.partner > h2{
+    color: rgb(187, 18, 52);;
+    width:fit-content;
+    margin: 0px auto;   
+}
+
+.partner-icon{
+    width: 32px;
+    margin: auto 20px;
+}
+
+
+.partner-images{
+    margin-top: 20px;
+}
+.partner-images > img{
+    width: 150px;
+    height: 140px;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+
+
+@media (max-width: 376px){
+    .partner{
+        display: block;
+        width: 100%;
+    }
+
+    .partner > div:first-child{
+       text-align: center;
+        padding: 0px;
+        
+    }
+}

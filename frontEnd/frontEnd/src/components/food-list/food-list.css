@@ -1,0 +1,38 @@
+.food-list-scroll-bar{
+    margin-bottom: 30px;
+}
+
+.food-list-scroll-bar::-webkit-scrollbar{
+    width: 8px; 
+}
+.food-list-scroll-bar::-webkit-scrollbar-track{
+    background-color: rgb(234, 188, 197);
+    border-radius: 10px;
+    
+}
+
+.food-list-scroll-bar::-webkit-scrollbar-thumb{
+    background: rgb(187, 18, 52);
+    border-radius: 10px;
+}
+
+#image-list-item{
+    border: 2.2px solid white;
+    padding: 3.5px;
+}
+
+#image-list-item:hover{
+    border: 2.2px solid rgb(187, 18, 52);
+}
+
+.food-list-alert-message{
+    margin-top: 20px;
+}
+
+
+@media (max-width:376px) {
+    .food-list-scroll-bar{
+        display: block;
+    }
+}
+

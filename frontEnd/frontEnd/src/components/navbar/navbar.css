@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script:wght@700&family=Lavishly+Yours&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Rouge+Script&family=Tangerine:wght@400;700&display=swap");
+
+.navbar {
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 40px;
+  color: rgb(187, 18, 52);
+
+  font-family: "Cookie", cursive;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.navbar-btn{
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+    width: 25%;
+}
+.navbar-btn > .navbar-btn-link:hover{
+    color: rgb(187, 18, 52);
+}
+
+.btn-cursor{
+    cursor:pointer;
+}
+
+.navbar-btn > .navbar-btn-link {
+  list-style-type: none;
+  color: black;
+  font-family: "Tangerine", serif;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 2rem;
+}
+
+.shopping-cart-login{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10%;
+    color: rgb(0, 0, 0);
+}
+#shopping-cart-icon{
+    width: 36px;
+}
+#btn{
+    width: 60px;
+}
+
+.profile-btn{
+    border: 0px;
+    background-color: white;
+}
+
+
+.btn{
+    border-radius: 25px;
+    padding: 8px;
+    background-color:  white; 
+    border: 2px solid rgb(187, 18, 52);
+    font-size: 15px;
+}
+
+.btn:hover{
+    border: 2px solid white;
+    color: rgb(187, 18, 52);
+}
+
+hr{
+    border-width: 2px;
+}
+
+
+
+@media (max-width:376px) {
+    .navbar{
+        display: block;
+    }
+    .logo{
+        display: inline;
+    }
+    .navbar-btn{
+        width: 70%;
+        gap: 10px;
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+
+    .shopping-cart-login{
+        z-index: 5;
+        position: absolute;
+        top: 20px;
+        right: 80px;
+        gap: 20px;  
+    }
+
+}

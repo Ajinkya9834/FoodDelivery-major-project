@@ -1,0 +1,48 @@
+.add-item-image-upload img{
+    width: auto;
+    height: 80px;
+    opacity: 0.6;
+}
+
+.admin-content-icon > #contentIcon {
+    width: 32px;
+    margin-bottom: 20px;
+}
+
+.add-item-form{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items:start;
+}
+
+.admin-page-add-items{
+    margin-left: 30px;
+}
+
+input{
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(187, 18, 52);;
+}
+
+.admin-items-alert-message{
+    width: fit-content;
+    margin-left: auto;
+}
+
+@media (max-width:377px) {
+    .admin-page-add-items{
+        margin-left: 0px;
+    }
+
+    .admin-page-add-items{
+        width: 100%;   
+    }
+
+    .add-item-form{
+        align-items: center;
+    }
+    
+}

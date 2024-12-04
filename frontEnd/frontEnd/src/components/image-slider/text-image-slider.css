@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Cookie&family=Dancing+Script:wght@700&family=Lavishly+Yours&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Rouge+Script&family=Tangerine:wght@400;700&display=swap');
+
+
+
+
+.slider-container{ 
+    text-align: center;
+}
+
+#slider-image{
+  height: 500px;
+  width: 100%;   
+  object-fit: cover;
+}
+
+.slider-item{
+    position: relative;
+}
+#slider-text{
+    font-family: "Charm", cursive;
+    font-weight: 400;
+    font-style: normal;
+    top: 20%;
+    left: 20%;
+    color: white;
+    position: absolute;             
+    text-align: start;                                                                         
+}
+
+#discount-offer, #minutes-style, #countdown-style, #swipe-style{
+    font-size: 50px;
+    color: yellow;
+}
+
+
+@media (max-width:376px){
+    #slider-image{
+        
+        object-fit: cover;
+    }
+
+    #slider-text{
+        left: 0px;
+    }
+
+    #swipe-arrow{
+        display: block;
+        margin-left: 100px;
+    }
+
+}

@@ -1,0 +1,70 @@
+
+
+#user-form input{
+    margin-bottom: 15px;
+    
+}
+#user-form label{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#register-btn{
+    text-align: center;
+ 
+}
+
+#user-form input, textarea{
+    padding: 10px;
+    outline: none;
+    border: 1px solid rgb(187, 18, 52);;
+    border-radius: 5px;
+}
+#registration-cust-page{
+    width: 600px;
+}
+
+#registration-cust-page > p{
+    font-size: 30px;
+}
+
+#registration-cust-page > h1{
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+}
+
+.registration-page-fields{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.registration-page-fields > div:last-child{
+    margin-bottom: 30px;
+}
+textarea{
+    margin-bottom: 15px;
+}
+select{
+    padding: 10px;
+    margin-bottom: 15px;
+    outline: none;
+    border: 1px solid rgb(187, 18, 52);;
+    border-radius: 5px;
+
+}
+
+@media (max-width: 376px){
+    #registration-cust-page {
+        
+        width: 100%;;
+    }
+
+   
+    .registration-page-fields {
+        display: block;
+        margin-top: 20px;
+    }
+}

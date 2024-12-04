@@ -1,0 +1,135 @@
+/* font-family: "Charm", cursive; */
+
+.place-order > h1 {
+  margin: 20px 0px 0px 0px;
+  font-size: 35px;
+  font-family: "Charm", cursive;
+  font-weight: 100;
+}
+
+.place-order > hr{
+  width: 15%;
+}
+.place-order-container {
+  margin-top: 30px;
+  font-family: "Tangerine", serif;
+  display: flex;
+  gap: 80px;
+}
+
+.place-order-scrollbar {
+  height: 35vh;
+  overflow-y: auto;
+}
+.place-order-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+.place-order-scrollbar::-webkit-scrollbar-track {
+  background-color: rgb(234, 188, 197);
+  border-radius: 10px;
+}
+.place-order-scrollbar::-webkit-scrollbar-thumb {
+  background: rgb(187, 18, 52);
+  border-radius: 10px;
+}
+.place-order-card {
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  font-family: "Charm", cursive;
+}
+.place-order-card > p {
+  font-size: large;
+  letter-spacing: 1px;
+}
+.place-order-card > p > strong {
+  letter-spacing: 1px;
+  font-family: sans-serif;
+}
+.place-order-item {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 12px;
+}
+.place-order-item-details {
+  width: 100%;
+  padding-right: 12px;
+}
+
+.place-order-item-details p{
+  letter-spacing: 0.7px;
+}
+
+.place-order-item > img {
+  align-content: center;
+  width: 50px;
+}
+.place-order-item-price {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+/* form */
+.place-order-form-container {
+  width: 50%;
+}
+.place-order-form {
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+.place-order-form p {
+  font-size: 30px;
+  font-weight: bold;
+}
+.place-order-form input {
+  margin-bottom: 15px;
+  width: 80%;
+}
+.place-order-form > :first-child {
+  width: 100%;
+}
+.place-order-form > :last-child {
+  width: 100%;
+}
+#total-price {
+  font-size: 20px;
+  font-family: "Charm", cursive;
+}
+#total-price > span {
+  font-weight: bold;
+  font-size: 30px;
+}
+#place-order-btn {
+  width: 100%;
+  font-family: "Charm", cursive;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 392px) {
+  .place-order > hr{
+    width: 54%;
+  }
+
+  .place-order-container {
+    margin-top: 30px;
+    display: block;
+    padding: 0px 20px;
+  }
+  .place-order-card {
+    width: 100%;
+  }
+  .place-order-form-container{
+    margin-top: 40px;
+    width: 100%;
+  }
+  .place-order-form {
+    display: block;
+    text-align: center;
+  }
+}

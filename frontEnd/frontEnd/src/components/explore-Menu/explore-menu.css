@@ -1,0 +1,61 @@
+
+.explore-menu > h1{
+    font-family: "Tangerine", serif;
+    font-weight: bolder;
+    font-style: normal;
+    word-spacing: 7px;
+    letter-spacing: 3px;
+    font-size: 70px;
+    margin:100px 0px 20px 0px ;
+}
+
+.explore-menu-list{
+    display: flex;
+    gap: 50px;
+    letter-spacing: 2px;
+}
+
+.explore-menu-list-item{
+    text-align: center;
+}
+
+.explore-menu-list-item > label{
+    font-family: "Charm", cursive;
+    font-style: normal;
+}
+
+.explore-menu-list-item > #image{
+    border: 2.2px solid white;
+    border-radius: 50%;
+    padding: 3.5px;
+} 
+
+.explore-menu-list-item:hover > #image {
+    border: 2.2px solid rgb(187, 18, 52);
+}
+
+
+
+/* scroll bar style */
+.scroll-bar-x{
+    overflow-x: scroll;
+    padding-bottom: 15px;
+}
+
+.scroll-bar-x::-webkit-scrollbar{
+    height: 8px;
+}
+.scroll-bar-x::-webkit-scrollbar-track{
+    background-color: rgb(234, 188, 197);
+    border-radius: 10px;
+}
+.scroll-bar-x::-webkit-scrollbar-thumb{
+    background: rgb(187, 18, 52);
+    border-radius: 10px;
+}
+.scroll-bar-x:hover{
+    cursor: pointer;
+}
+
+
+
