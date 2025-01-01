@@ -28,7 +28,7 @@ Fully responsive food delivery web application designed for mobile and desktop.
 ---
 
 ## Technologies Used
-- **Frontend:** React.js, Material-UI
+- **Frontend:** React.js, Material-UI, HTML, CSS, JavaScript
 - **Backend:** Node.js, Express.js
 - **Database:** PostgreSQL
 
